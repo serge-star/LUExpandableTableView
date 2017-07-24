@@ -88,9 +88,7 @@ open class LUExpandableTableView: UITableView {
         dataSource = self
         
         rowHeight = UITableViewAutomaticDimension
-        estimatedRowHeight = 60
         sectionHeaderHeight = UITableViewAutomaticDimension
-        estimatedSectionHeaderHeight = 60
     }
     
     // MARK: - Public Functions
